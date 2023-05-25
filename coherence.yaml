@@ -1,4 +1,6 @@
-server:
+backend:
   type: "backend"
+  url_path: "/"
+  repo_path: "/"
   dev: ["python", "app.py"]
   prod: ["python", "app.py"]
