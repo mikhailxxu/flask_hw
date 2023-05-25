@@ -1,4 +1,6 @@
 backend:
   type: "backend"
-  dev: ["python", "app.py"]
-  prod: ["python", "app.py"]
+  dev: 
+    command: ["python", "app.py"]
+  prod: 
+    command: ["python", "app.py"]
